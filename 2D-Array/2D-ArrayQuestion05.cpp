@@ -1,4 +1,4 @@
-//Given a square matrix, turn it by 90 degree in a clockwise direction without usng any extra space.
+//2D-ArrayQuestion05 : Given a square matrix, turn it by 90 degree in a clockwise direction without usng any extra space.
 #include <iostream>
 #include <vector>
 #include <algorithm>
