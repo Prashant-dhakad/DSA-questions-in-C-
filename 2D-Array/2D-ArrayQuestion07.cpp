@@ -36,7 +36,7 @@ vector<vector<int>> createSpiralMatrix(int n){
       for(int j = bottom ; j>=top ; j--){
         matrix[j][left] = value++;
       }
-      bottom --;
+      left ++;
     }
     direction = (direction + 1)%4;
   }
