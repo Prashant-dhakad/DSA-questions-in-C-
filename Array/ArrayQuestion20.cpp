@@ -25,7 +25,7 @@ int main() {
     cin>>l>>r;
 
     int ans=0;
-    //ans = prefixsumarray[r] - prefixsumarray[i-1]
+    //ans = prefixsumarray[r] - prefixsumarray[l-1]
     ans = v[r]-v[l-1];
     cout<<ans<<endl;
   }
